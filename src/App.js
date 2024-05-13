@@ -1,5 +1,5 @@
 
-import Counter from "./features/counter/Counter";
+// import Counter from "./features/counter/Counter";
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
    
   
       <div className="border w-[300px] mx-auto p-8 space-x-2">
-      <Counter />
+      {/* <Counter /> */}
 
       </div>
 
