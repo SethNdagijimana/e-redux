@@ -6,8 +6,8 @@ import postReducer from "../features/post/postSlice"
 
 export const store = configureStore({
     reducer: {
-        // counter: counterReducer
-        postReducer: postReducer
+        // counter: counterReducer,
+        posts: postReducer
      
     }
 })

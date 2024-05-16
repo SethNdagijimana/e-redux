@@ -1,19 +1,29 @@
-
 // import Counter from "./features/counter/Counter";
+
+import AddPostForm from "./features/post/AddPostForm";
+import PostList from "./features/post/PostList";
 
 
 function App() {
   return (
-    <div className="App">
+  
    
   
-      <div className="border w-[300px] mx-auto p-8 space-x-2">
+      <div className="border w-[300px] mx-auto p-8 space-x-2 bg-green-900">
       {/* <Counter /> */}
-
+   <div className="space-y-4"> 
+      <AddPostForm />
+     
       </div>
 
-      
-    </div>
+
+     <div className="space-y-4 mt-4">
+     <PostList />
+     </div>
+
+    
+
+      </div>
   );
 }
 
