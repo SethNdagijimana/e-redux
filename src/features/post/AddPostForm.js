@@ -63,16 +63,18 @@ const AddPostForm = () => {
                     name="postTitle"
                     value={title}
                     onChange={onTitleChange}
-                    className="mt-2 p-1"
+                    className="mt-2 p-1 w-full"
                 />
                </div>
 
                 <div>
-                    <label htmlFor="postAuthor">Author</label>
-                    <select id="postAuthor" value={userId} onChange={onAuthorChanged}>
+                    <label htmlFor="postAuthor" className="text-xl text-white">Author</label>
+                   <div>
+                   <select id="postAuthor" value={userId} onChange={onAuthorChanged} className="w-full mt-1">
                         <option value=""></option>
                         {usersOptions}
                     </select>
+                   </div>
                 </div>
                <div>
                <label htmlFor="postContent" className="text-xl text-white">Content:</label>
@@ -82,7 +84,7 @@ const AddPostForm = () => {
                    name="postContent"
                    value={content}
                    onChange={onContentChanged}
-                   className="mt-2 p-1"
+                   className="mt-2 p-1 w-full"
                 />
                </div>
 
