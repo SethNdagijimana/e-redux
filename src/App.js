@@ -9,7 +9,7 @@ function App() {
   
    
   
-      <div className="border w-[300px] mx-auto p-8 space-x-2 bg-green-900">
+      <div className="border w-[500px] mx-auto p-8 space-x-2 bg-green-900">
       {/* <Counter /> */}
    <div className="space-y-4"> 
       <AddPostForm />

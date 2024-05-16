@@ -91,7 +91,7 @@ const AddPostForm = () => {
                 <button 
                     onClick={onSavePostClicked}
                     type="button"
-                    className={`w-full text-white rounded h-14 ${canSave ? 'bg-black' : 'bg-gray-200 text-black'}`}
+                    className={`w-full  rounded h-14 ${canSave ? 'bg-black text-white' : 'bg-gray-200 text-black'}`}
                     disabled={!canSave}
                     >
                         Save Post
